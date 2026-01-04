@@ -1,1 +1,38 @@
-
+{
+  "amount": {
+    "value": 2500,
+    "currency": "USD"
+  },
+  "workflow": "DIRECT",
+  "payment_method": {
+    "type": "CARD",
+    "detail": {
+      "card": {
+        "number": "4111111111111111",
+        "security_code": "123",
+        "expiration_month": "12",
+        "expiration_year": "30",
+        "holder_name": "Test User"
+      }
+    }
+  },
+  "customer_payer": {
+    "id": "cust_12345",
+    "email": "test.user@example.com",
+    "first_name": "Test",
+    "last_name": "User",
+    "phone": "+15555555555",
+    "billing_address": {
+      "line1": "123 Main Street",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "zip_code": "10001"
+    }
+  },
+  "additional_data": {
+    "device_type": "WEB",
+    "ip_address": "127.0.0.1",
+    "browser": "Chrome"
+  }
+}
